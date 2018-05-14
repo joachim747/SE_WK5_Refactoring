@@ -34,7 +34,7 @@ public class MovieTest {
     @Test
     public void testMoviePriceCodeSetter() {
         int priceCode = Movie.REGULAR;
-        Movie movie = new Movie("", Movie.CHILDRENS);
+        Movie movie = new Movie("", Movie.CHILDREN);
         movie.setPriceCode(priceCode);
         assertEquals(movie.getPriceCode(), priceCode);
     }
